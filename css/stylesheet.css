@@ -61,12 +61,19 @@ nav {
 }
 
 .buttons {
-    background-color: #755013;
-    padding: 15px 32px;
-    text-align: center;
+    background-color: #eda93b;
+    font-size: 22px;
+    font-weight: 900;
+    padding: 25px 20px;
+    border-radius: 15px;
     text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.buttons:active {
+    background-color: #d18710;
+}
 a {
     color: white;
 }
