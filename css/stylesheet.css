@@ -94,8 +94,7 @@ a {
 }
 
 .cart {
-    height: 75px
-
+    height: 80px
 }
 
 .homesearchbar {
@@ -112,7 +111,7 @@ a {
     color: rgb(89, 89, 89);
 }
 
-ul {
+.footerlist {
     padding-right: 50px;
     list-style: none;
 }
