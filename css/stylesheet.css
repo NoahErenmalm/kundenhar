@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-image: url(../img/bilder/normalhomebackground.png);
+    background-image: url(../img/bilder/orangehomebackgroundblur.png);
     background-size: cover;
 }
 
@@ -36,6 +36,8 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    box-shadow: 0px 10px 100px;
+    border-bottom: 5px solid #ffbe57;
 }
 
 main {
@@ -50,6 +52,9 @@ footer {
     grid-area: footer;
     background-image: url(../img/bilder/footerimg.png);
     background-size: cover;
+    box-shadow: 0px -10px 100px;
+    border-width: 5px;
+    border-top: 5px solid #ffbe57;
 }
 
 aside {
@@ -95,9 +100,10 @@ a {
     border-style: solid;
     border-width: 1px;
     border-color: rgb(165, 165, 165);
+    box-shadow: 0px 0px 100px 12px;
 }
 
 .searchbartext {
-    color: rgb(55, 55, 55);
+    color: rgb(89, 89, 89);
 }
 
