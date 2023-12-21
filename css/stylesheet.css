@@ -61,7 +61,7 @@ footer {
 
 aside {
     grid-area: aside;
-    background-color: chartreuse;
+    background-color: white;
 }
 
 nav {
@@ -118,4 +118,19 @@ a {
 
 li {
     margin: 15px 0px;
+}
+
+.destinations-card {
+    background-color: white;
+    max-height: 200px;
+    width:1145px;
+    display: flex;
+    border-style: solid;
+    border-width: 20px;
+    border-color: white;
+    border-radius: 25px;
+}
+
+.destinations-text {
+    
 }
