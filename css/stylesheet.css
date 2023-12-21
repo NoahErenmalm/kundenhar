@@ -131,7 +131,8 @@ li {
     border-width: 20px;
     border-color: white;
     border-radius: 15px;
-    transition: transform 0.3s ease; 
+    transition: transform 0.3s ease;
+    margin: 15px;
 }
 
 .destinations-card:hover {
