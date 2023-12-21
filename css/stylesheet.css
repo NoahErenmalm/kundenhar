@@ -1,7 +1,5 @@
 body {
     margin: 0;
-    background-image: url(../img/bilder/normalhomebackgroundblur.png);
-    background-size: cover;
 }
 
 #wrapperWOaside {
@@ -13,7 +11,7 @@ body {
     grid-template-rows: 15vh 85vh auto;
     grid-template-areas:
     'header'
-    'main'
+    'main1'
     'footer'
 }
 
@@ -26,7 +24,7 @@ body {
     grid-template-rows: 15vh max-content 20vh;
     grid-template-areas:
     'header header'
-    'aside main'
+    'aside main2'
     'footer footer'
 }
 
@@ -40,13 +38,25 @@ header {
     border-bottom: 5px solid #ffbe57;
 }
 
-main {
-    grid-area: main;
+.main-home {
+    grid-area: main1;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    background-image: url(../img/bilder/normalhomebackgroundblur.png);
+    background-size: cover;
 
+}
+
+.main-travel-options{
+    grid-area: main2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(../img/bilder/traveloptionsbackground.jpg);
+    background-size: cover;
 }
 
 footer {
@@ -139,9 +149,14 @@ li {
     transform: scale(1.03); 
 }
 
-.destinations-text {
+.destinations-text{
     padding-left: 20px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: black;
+    font-size: 25px;
 }
 
 p {
