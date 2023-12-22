@@ -148,6 +148,7 @@ li {
     max-height: 200px;
     width:1140px;
     display: flex;
+    align-items: center;
     border-style: solid;
     border-width: 20px;
     border-color: white;
